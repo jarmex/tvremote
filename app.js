@@ -25,20 +25,12 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-//local partials
-
-
 // let timeout = 5000;
 // Bravia.discover(timeout).then(result =>{
 //   //console.log(result);
 //   for (let device in result){
 //     console.log(result[device]);
 //   }
-//   let bravia = new Bravia('10.0.0.7', '80', '0000');
-//   // Retrieves all the available IRCC commands from the TV.
-//   bravia.system.invoke('getRemoteControllerInfo')
-//     .then(commands => console.log(commands))
-//     .catch(error => console.error(error));
 
 // }).catch(error =>{console.log(error);})
 
