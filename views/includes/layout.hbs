@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            {{#if title}} {{title}} {{else}} TV Remotes ::Sony {{/if}}
+        </title>    
+        <link rel='stylesheet' href='/stylesheets/style.css' /> 
+        {{#> head-block}} {{!-- Custom <head> content per page could be added. --}} {{/head-block}}
+    </head>
+    <body>
+        <header>
+            {{#> header-block}} 
+                {{> myheader}} 
+            {{/header-block}}
+        </header>
+        {{!-- the default body block --}}
+        {{#> bodyblock}} 
+            {{{body}}} 
+        {{/bodyblock}}
+        {{!-- the footer --}}
+        <footer>
+            {{#> footer-block}}
+                {{> footer }}
+            {{/footer-block}}
+        </footer>
+        {{#> scriptsblock}} {{!-- Custom scripts per page can be added. --}} {{/scriptsblock}}
+    </body>
+</html>

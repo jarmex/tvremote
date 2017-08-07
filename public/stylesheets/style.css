@@ -1,0 +1,209 @@
+body {
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+
+header {
+  background-color: #003366;
+  min-height: 65px;
+  padding-top: 30px;
+  border-bottom: 3px solid #FF9966;
+}
+
+header a {
+  color: #FFCC99;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li { 
+  display: inline;
+  padding: 0px 20px 0px 20px;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+#logo {
+  float: left;
+}
+#logo h1 {
+  margin: 0px;
+  color: #3399FF;
+}
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+footer{
+  background-color: #003366;
+  border-top: 3px solid #FF9966;
+  min-height: 32px;
+  text-align: center;
+  color: #3399FF;
+  padding-top: 10px;
+}
+
+.num {
+  width: 75px;
+  height: 40px;
+  border: 1px solid #79BEDB;
+  background-color: #10C8CD;
+  margin: 5px 5px 5px 5px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #003366;
+  border-radius: 25px;
+}
+
+#leftbar {
+  float: left;
+  width: 68%;
+}
+
+#leftbar  li{
+  display: inline;
+  padding-right: 3px;
+}
+.rightbar {
+  float: right;
+  width: 30%;
+}
+
+.basec{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 67vh;
+}
+
+#numform{
+    width: 100%;
+    text-align: center;
+}
+
+.home {
+  width: 49%;
+  border: 0px solid #10C8CD;
+  height: 40px;
+  font-size: 15px;
+  background-color:  #79BEDB;
+  color:  #003366;
+  border-radius: 2px;
+}
+
+.smallv{
+  width: 20%;
+  border: 0px solid #10C8CD;
+  height: 25px;
+  font-size: 12px;
+  color:  #ffffff;
+  border-radius: 10px;
+}
+.red{
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+  color: #003366;
+}
+
+table {
+  width: 100%;
+}
+
+.mok{
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  border: 2px solid #FF6600;
+  background-color: #CCCCCC;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.mtop, .mbottom{
+  height: 50px;
+  width: 35px;
+  border-radius: 15px;
+  border: 2px solid #FF6600;
+  background-color: #CCCCCC;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 0px 10px 0px;
+}
+
+.mleft, .mright{
+  height: 35px;
+  width: 50px;
+  border-radius: 15px;
+  border: 2px solid #FF6600;
+  background-color: #CCCCCC;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.mback{
+  height: 36px;
+  width: 70px;
+  border-radius: 18px;
+  border: 2px solid #FF6600;
+  background-color: #CCCCCC;
+  color: #ffffff;
+  font-size: 15px;
+}
+#OptionalCmd{
+  padding-top: 20px;
+}
+
+
+.controls{
+  padding: 50px 0px;
+}
+
+
+#tvCommand{
+  width: 260px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #003366;
+  padding-left: 10px;
+  color: #003366;
+  font-size: 15px;
+}
+
+#SendQuery{
+  width: 100px;
+  height: 34px;
+  border-radius: 3px;
+  border: 1px solid #FF6600;
+  background-color: #f4f4f4;
+  font-size: 14px;
+  color: #003366;
+}
+
+#myclear{
+  font-size: 11px;
+  text-decoration: none;
+  color: #003366;
+}

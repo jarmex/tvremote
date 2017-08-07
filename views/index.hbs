@@ -1,0 +1,87 @@
+{{> layout}}
+{{!-- inline partial for the main body --}}
+{{#*inline "bodyblock"}}
+<section class="container basec">
+    <div id="leftbar">
+       <h3>Supported Commands</h3>
+       <ul>
+           {{#each commands}}
+             <li id="{{value}}" >{{name}}</li>
+           {{/each}}
+       </ul>
+       <br>
+       <br>
+        <div id="OptionalCmd">
+            <input type="text" name="tvCommand" id="tvCommand" readonly>
+            <button id="SendQuery">Send Query</button><br>
+            <a href="#" id="myclear">click here to clear content</a>
+        </div>
+    </div>
+    <div class="rightbar">
+        <form id="numform">
+            <button id="AAAAAQAAAAEAAAAAAw==" class="num"> 1 </button>
+            <button id="AAAAAQAAAAEAAAABAw==" class="num"> 2 </button>
+            <button id="AAAAAQAAAAEAAAACAw==" class="num"> 3 </button>
+            <button id="AAAAAQAAAAEAAAADAw==" class="num"> 4 </button>
+            <button id="AAAAAQAAAAEAAAAEAw==" class="num"> 5 </button>
+            <button id="AAAAAQAAAAEAAAAFAw==" class="num"> 6 </button>
+            <button id="AAAAAQAAAAEAAAAGAw==" class="num"> 7 </button>
+            <button id="AAAAAQAAAAEAAAAHAw==" class="num"> 8 </button>
+            <button id="AAAAAQAAAAEAAAAIAw==" class="num"> 9 </button>
+            <button id="AAAAAQAAAAEAAAAJAw==" class="num"> 10 </button>
+            <button id="AAAAAQAAAAEAAAAKAw==" class="num"> 11 </button>
+            <button id="AAAAAQAAAAEAAAALAw==" class="num"> 12 </button>
+
+            <br><br>
+            <div>
+                <button id="AAAAAgAAAJcAAAAmAw==" class="smallv green"> green </button>
+                <button id="AAAAAgAAAJcAAAAkAw==" class="smallv blue" > blue </button>
+                <button id="AAAAAgAAAJcAAAAlAw==" class="smallv red"> red </button>
+                <button id="AAAAAgAAAJcAAAAnAw==" class="smallv yellow"> yellow </button>
+            </div>
+            <br>
+            <div>
+                <button id="AAAAAQAAAAEAAABgAw==" class="home">Home</button>
+                <button id="AAAAAgAAABoAAAB8Aw==" class="home">Netflix</button>
+            </div>
+            
+            <div class="controls">
+                <table>
+                    <tr>
+                        <td style="width:20%; vertical-align:bottom;"> <button id="AAAAAgAAAJcAAAAjAw==" class="mback click">Back</button> </td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td><button id="AAAAAQAAAAEAAAB0Aw==" class="mtop click">^</button></td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td><button id="AAAAAQAAAAEAAAA0Aw==" class="mleft click">&lt;</button></td>
+                                    <td style="width:70px;"><button id="AAAAAQAAAAEAAABlAw==" class="mok click">OK</button></td>
+                                    <td><button id="AAAAAQAAAAEAAAAzAw==" class="mright click" >&gt;</button></td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                        <button id="AAAAAQAAAAEAAAB1Aw==" class="mbottom click">v</button>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td style="width:20%;">&nbsp;</td>
+                    </tr>
+                </table>
+            </div>
+            
+        </form>
+    </div>
+</section>
+{{/inline}}
+
+{{!-- add scripts to the page --}}
+{{#*inline "scriptsblock"}}
+    <script src="/bcomponents/jquery/dist/jquery.min.js"></script>
+    <script src="/javascripts/script.js" type="text/javascript" ></script> 
+{{/inline}}
